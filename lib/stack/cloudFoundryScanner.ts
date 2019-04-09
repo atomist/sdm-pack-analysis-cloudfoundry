@@ -1,6 +1,6 @@
 import {
     TechnologyScanner,
-    TechnologyStack
+    TechnologyStack,
 } from "@atomist/sdm-pack-analysis";
 import { HasCloudFoundryManifest } from "@atomist/sdm-pack-cloudfoundry";
 
