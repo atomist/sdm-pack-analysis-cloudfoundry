@@ -14,4 +14,6 @@
  * limitations under the License.
  */
 
-export { SeedSupport } from "./lib/seed";
+export { CloudFoundryDeployInterpreter } from "./lib/stack/CloudFoundryDeployInterpreter";
+export { cloudFoundryScanner } from "./lib/stack/cloudFoundryScanner";
+export { cloudFoundryStackSupport } from "./lib/stack/cloudFoundryStackSupport";

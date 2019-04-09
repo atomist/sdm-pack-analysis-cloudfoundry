@@ -1,10 +1,9 @@
 {
   "name": "@atomist/sdm-pack-analysis-cloudfoundry",
-  "version": "0.1.0",
-  "description": "my new project",
+  "version": "1.0.0",
+  "description": "Analysis pack to add CloudFoundry support to Uhura",
   "author": {
-    "name": "Lieven Doclo",
-    "email": "lieven@atomist.com"
+    "name": "Atomist"
   },
   "license": "Apache-2.0",
   "homepage": "https://github.com/atomist/sdm-pack-analysis-cloudfoundry#readme",
@@ -25,14 +24,17 @@
   "types": "./index.d.ts",
   "dependencies": {},
   "peerDependencies": {
-    "@atomist/automation-client": "*",
-    "@atomist/sdm": "*",
-    "@atomist/sdm-core": "*"
+    "@atomist/automation-client": ">=1.3.0",
+    "@atomist/sdm": ">=1.4.0",
+    "@atomist/sdm-core": ">=1.5.0",
+    "@atomist/sdm-pack-cloudfoundry": ">=2.0.0"
   },
   "devDependencies": {
-    "@atomist/automation-client": "^1.2.0",
-    "@atomist/sdm": "^1.2.0",
-    "@atomist/sdm-core": "^1.2.0",
+    "@atomist/automation-client": "^1.3.1-master.20190405174432",
+    "@atomist/sdm": "^1.4.2-master.20190405122526",
+    "@atomist/sdm-core": "^1.5.0-master.20190406072016",
+    "@atomist/sdm-pack-analysis": "^1.0.1-master.20190403065626",
+    "@atomist/sdm-pack-cloudfoundry": "^2.0.0-new-api.20190409132024",
     "@types/mocha": "^5.2.5",
     "@types/power-assert": "^1.5.0",
     "espower-typescript": "^9.0.0",
