@@ -30,11 +30,11 @@
     "@atomist/sdm-pack-cloudfoundry": ">=2.0.0"
   },
   "devDependencies": {
-    "@atomist/automation-client": "^1.3.1-master.20190405174432",
-    "@atomist/sdm": "^1.4.2-master.20190405122526",
-    "@atomist/sdm-core": "^1.5.0-master.20190406072016",
-    "@atomist/sdm-pack-analysis": "^1.0.1-master.20190403065626",
-    "@atomist/sdm-pack-cloudfoundry": "^2.0.0-new-api.20190409132024",
+    "@atomist/automation-client": "^1.6.1",
+    "@atomist/sdm": "^1.6.0",
+    "@atomist/sdm-core": "^1.6.0",
+    "@atomist/sdm-pack-analysis": "^1.0.0",
+    "@atomist/sdm-pack-cloudfoundry": "^1.0.3",
     "@types/mocha": "^5.2.5",
     "@types/power-assert": "^1.5.0",
     "espower-typescript": "^9.0.0",
