@@ -24,17 +24,17 @@
   "types": "./index.d.ts",
   "dependencies": {},
   "peerDependencies": {
-    "@atomist/automation-client": ">=1.3.0",
-    "@atomist/sdm": ">=1.4.0",
-    "@atomist/sdm-core": ">=1.5.0",
-    "@atomist/sdm-pack-cloudfoundry": ">=2.0.0"
+    "@atomist/automation-client": "^1.7.0",
+    "@atomist/sdm": "^1.7.0",
+    "@atomist/sdm-core": "^1.7.0",
+    "@atomist/sdm-pack-cloudfoundry": "^2.0.0"
   },
   "devDependencies": {
-    "@atomist/automation-client": "^1.3.1-master.20190405174432",
-    "@atomist/sdm": "^1.4.2-master.20190405122526",
-    "@atomist/sdm-core": "^1.5.0-master.20190406072016",
+    "@atomist/automation-client": "^1.7.0",
+    "@atomist/sdm": "^1.7.0",
+    "@atomist/sdm-core": "^1.7.0",
     "@atomist/sdm-pack-analysis": "^1.0.1-master.20190403065626",
-    "@atomist/sdm-pack-cloudfoundry": "^2.0.0-new-api.20190409132024",
+    "@atomist/sdm-pack-cloudfoundry": "2.0.0-master.20190910083125",
     "@types/mocha": "^5.2.5",
     "@types/power-assert": "^1.5.0",
     "espower-typescript": "^9.0.0",
@@ -43,10 +43,10 @@
     "power-assert": "^1.6.1",
     "rimraf": "^2.6.2",
     "supervisor": "^0.12.0",
-    "ts-node": "^7.0.1",
-    "tslint": "^5.11.0",
-    "typedoc": "^0.13.0",
-    "typescript": "^3.1.6"
+    "ts-node": "^8.3.0",
+    "tslint": "^5.20.0",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.6.2"
   },
   "directories": {
     "test": "test"
